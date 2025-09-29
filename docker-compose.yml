@@ -1,0 +1,8 @@
+services:
+  torxy:
+    image: ghcr.io/m8ke/torxy
+    container_name: torxy
+    restart: always
+    ports:
+      - "9050:9050"
+      - "9051:9051"
