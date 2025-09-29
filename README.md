@@ -4,6 +4,16 @@ Docker container for the [Tor](https://www.torproject.org/about/history) network
 
 ## Getting started
 
+### Docker CLI
+
+```bash
+docker run --rm -d \
+  --name torxy \
+  -p 9050:9050 \
+  -p 9051:9051 \
+  ghcr.io/m8ke/torxy
+```
+
 ### Docker Compose
 
 ```yaml
