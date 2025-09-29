@@ -9,8 +9,8 @@ Docker container for the [Tor](https://www.torproject.org/about/history) network
 ```bash
 docker run --rm -d \
   --name torxy \
-  -p 9070:9050 \
-  -p 9071:9051 \
+  -p 9050:9050 \
+  -p 9051:9051 \
   ghcr.io/m8ke/torxy
 ```
 
