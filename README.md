@@ -1,5 +1,3 @@
-![header.png](docs/header.png)
-<br>
 Docker container for the [Tor](https://www.torproject.org/about/history) network.
 
 ## Getting started
