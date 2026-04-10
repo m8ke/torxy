@@ -1,11 +1,15 @@
 version: 2
 updates:
   - package-ecosystem: docker
+    labels:
+      - build
     directory: /
     schedule:
       interval: monthly
 
   - package-ecosystem: github-actions
+    labels:
+      - ci
     directory: /
     schedule:
       interval: monthly
